@@ -30,3 +30,6 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}.`);
 });
+app.post('/post',(req,res)=>{
+  console.log(`this is github`)
+})
